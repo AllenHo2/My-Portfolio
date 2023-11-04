@@ -9,6 +9,7 @@ class App extends Component {
         
 
     //     this.toggleDisplayBio = this.toggleDisplayBio.bind(this);
+    //     this.toggleDisplayBio = () => { ... };
     // }
 
     toggleDisplayBio = () => {
