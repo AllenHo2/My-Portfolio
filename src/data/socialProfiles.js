@@ -14,7 +14,7 @@ const SOCIAL_PROFILES = [
         id: 2,
         title: 'LinkedIn',
         image: linkedin_icon,
-        link: 'https://www.linkedin.com/in/allen-ho-2a2b2b1a3/',
+        link: 'https://www.linkedin.com/in/allen-ho-b67a6725b/',
     },
     {
         id: 3,
