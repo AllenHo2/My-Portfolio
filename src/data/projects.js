@@ -14,7 +14,7 @@ const PROJECTS = [
         id: 2,
         title: 'Elevator Simulation',
         description: 'An Elevator Simulation that I developed using various data structures programmed in Java',
-        link: '',
+        link: 'https://github.com/AllenHo2/project02-Elevator',
         image: Elevator
     },
     // {
