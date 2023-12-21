@@ -1,5 +1,5 @@
 import project1 from '../assets/project1.png'
-import project2 from '../assets/project2.png'   
+import Elevator from '../assets/Elevator.png'   
 //import project3 from '../assets/project3.png'
 
 const PROJECTS = [
@@ -15,7 +15,7 @@ const PROJECTS = [
         title: 'Elevator Simulation',
         description: 'An Elevator Simulation that I developed using various data structures programmed in Java',
         link: '',
-        image: project2
+        image: Elevator
     },
     // {
     //     id: 3,
