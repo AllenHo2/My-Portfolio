@@ -32,9 +32,9 @@ class App extends Component {
                         </div>
                     )
                 }
-                <hr />
+                <br />
                 <Projects />
-                <hr />
+                <br />
                 <SocialProfiles />
             </div>
         );

@@ -20,6 +20,8 @@ body {
     font-size: 20px;
     padding: 2.5%;
     font-family: 'RobotoCondensed';
+    background-image: url("https://images5.alphacoders.com/374/374293.jpg");
+    background-size: "cover";
 }
 
 h1, h2, h3, h4, h5{
@@ -32,10 +34,6 @@ button{
 
 p{
     font-family: 'EconomicaBold';
-}
-
-background {
-    background-image: 'url(https://github.com/cs221-0203-f22/project03-AllenHo2/assets/112123839/22db8e04-abbe-4998-83ba-02c1020d0a84)';
 }
 
 .profile {
