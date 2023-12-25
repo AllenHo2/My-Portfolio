@@ -20,8 +20,9 @@ class App extends Component {
                 {
                 this.state.displayBio ? (                
                 <div>
-                    <p>I live in San Francisco.</p>
-                    <p>My favorite langauge is C.</p>
+                    <p>I am currently based in San Francisco!</p>
+                    <p>When I'm not working, I like to go out with friends and grab coffee in my free time!</p>
+                    <p>Some of my hobbies include swimming, rockclimbing, and finding new fashion trends</p>
                     <div>
                         <button onClick = {this.toggleDisplayBio}>Show Less</button>
                     </div>
