@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.92f39360.css",
+    "main.js": "/My-Portfolio/static/js/main.befcc676.js",
+    "static/media/roboto-condensed.light.ttf": "/My-Portfolio/static/media/roboto-condensed.light.d9e440de777389435df7.ttf",
+    "static/media/VinaSans-Regular.ttf": "/My-Portfolio/static/media/VinaSans-Regular.a3809b80da4207531e33.ttf",
+    "static/media/allenhead_2.png": "/My-Portfolio/static/media/allenhead_2.c97558bd32dda12c943a.png",
+    "static/media/economica-bold.ttf": "/My-Portfolio/static/media/economica-bold.ce99c17a86c8c9ef7b81.ttf",
+    "static/media/github_icon.png": "/My-Portfolio/static/media/github_icon.ccc9e19951ebe8134688.png",
+    "static/media/linkedin_icon.png": "/My-Portfolio/static/media/linkedin_icon.27cd6ff778a81a45fa46.png",
+    "static/media/email_icon.png": "/My-Portfolio/static/media/email_icon.160a6010e180da253390.png",
+    "index.html": "/My-Portfolio/index.html",
+    "main.92f39360.css.map": "/My-Portfolio/static/css/main.92f39360.css.map",
+    "main.befcc676.js.map": "/My-Portfolio/static/js/main.befcc676.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92f39360.css",
+    "static/js/main.befcc676.js"
+  ]
+}
