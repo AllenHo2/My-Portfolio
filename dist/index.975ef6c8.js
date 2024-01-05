@@ -27205,11 +27205,11 @@ class App extends (0, _react.Component) {
                     lineNumber: 19,
                     columnNumber: 17
                 }, this),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _titleDefault.default), {}, void 0, false, {
+                this.state.displayBio ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _titleDefault.default), {}, void 0, false, {
                     fileName: "src/App.js",
                     lineNumber: 20,
-                    columnNumber: 17
-                }, this),
+                    columnNumber: 42
+                }, this) : null,
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                     children: "I'm always looking for new connections & partnerships to work with."
                 }, void 0, false, {
@@ -27806,13 +27806,18 @@ class Title extends (0, _react.Component) {
         console.log("Title component has mounted");
         this.animateTitles();
     }
+    componentWillUnmount() {
+        console.log("Title component will unmount!");
+        clearInterval(this.titleInterval);
+    }
     animateTitles = ()=>{
-        setInterval(()=>{
+        this.titleInterval = setInterval(()=>{
             const titleIndex = (this.state.titleIndex + 1) % TITLES.length;
             this.setState({
                 titleIndex
             });
         }, 4000);
+        console.log("this.titleInterval", this.titleInterval);
     };
     render() {
         const title = TITLES[this.state.titleIndex];
@@ -27823,7 +27828,7 @@ class Title extends (0, _react.Component) {
             ]
         }, void 0, true, {
             fileName: "src/Title.js",
-            lineNumber: 31,
+            lineNumber: 39,
             columnNumber: 13
         }, this);
     }
