@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"icZzK":[function(require,module,exports) {
+})({"4rkIz":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -226,7 +226,11 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== "undefined") {
     var hostname = getHostname();
     var port = getPort();
-    var protocol = HMR_SECURE || location.protocol == "https:" && !/localhost|127.0.0.1|0.0.0.0/.test(hostname) ? "wss" : "ws";
+    var protocol = HMR_SECURE || location.protocol == "https:" && ![
+        "localhost",
+        "127.0.0.1",
+        "0.0.0.0"
+    ].includes(hostname) ? "wss" : "ws";
     var ws;
     try {
         ws = new WebSocket(protocol + "://" + hostname + (port ? ":" + port : "") + "/");
@@ -27308,7 +27312,7 @@ exports.default = App;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"aLAmU","./SocialProfiles":"eMaOk","./assets/allenhead_2.png":"56ILb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./Title":"8uviF"}],"aLAmU":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Projects":"aLAmU","./SocialProfiles":"eMaOk","./Title":"8uviF","./assets/allenhead_2.png":"56ILb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"aLAmU":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$5daf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27778,10 +27782,7 @@ module.exports = require("9ed8d29ead3474e8").getBundleURL("bLxZJ") + "linkedin_i
 },{"9ed8d29ead3474e8":"lgJ39"}],"iKfQd":[function(require,module,exports) {
 module.exports = require("dadf013d9cb15042").getBundleURL("bLxZJ") + "email_icon.76f72482.png" + "?" + Date.now();
 
-},{"dadf013d9cb15042":"lgJ39"}],"56ILb":[function(require,module,exports) {
-module.exports = require("1c58cdbedd7b580f").getBundleURL("bLxZJ") + "allenhead_2.2413efa1.png" + "?" + Date.now();
-
-},{"1c58cdbedd7b580f":"lgJ39"}],"8uviF":[function(require,module,exports) {
+},{"dadf013d9cb15042":"lgJ39"}],"8uviF":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$6caf = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27840,6 +27841,9 @@ exports.default = Title;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"irmnC":[function() {},{}]},["icZzK","1xC6H","8lqZg"], "8lqZg", "parcelRequire2041")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"56ILb":[function(require,module,exports) {
+module.exports = require("1c58cdbedd7b580f").getBundleURL("bLxZJ") + "allenhead_2.2413efa1.png" + "?" + Date.now();
+
+},{"1c58cdbedd7b580f":"lgJ39"}],"irmnC":[function() {},{}]},["4rkIz","1xC6H","8lqZg"], "8lqZg", "parcelRequire2041")
 
 //# sourceMappingURL=index.975ef6c8.js.map

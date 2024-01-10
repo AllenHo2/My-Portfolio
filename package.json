@@ -4,8 +4,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "live-server": "^1.2.2",
-    "parcel": "^2.10.3",
+    "parcel": "^2.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
