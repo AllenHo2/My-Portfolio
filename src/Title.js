@@ -8,7 +8,7 @@ const TITLES = [
 
 
 class Title extends Component {
-    state = { titleIndex: 0};
+    state = { titleIndex: 0, fadeIn: true};
 
     componentDidMount() {
         console.log('Title component has mounted');

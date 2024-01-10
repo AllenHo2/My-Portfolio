@@ -59,3 +59,25 @@ p{
     margin: 2.5%;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
+
+.title-fade-out {
+    opacity: 0;
+    animation-name: fade-out;
+    animation-duration: 2s;
+}
+
+.title-fade-in {
+    opacity: 100;
+    animation-name: fade-in;
+    animation-duration: 2s;
+}
+
+@keyframes fade-out {
+    from {opacity: 100}
+    to {opacity: 0}
+}
+
+@keyframes fade-in {
+    from {opacity: 0}
+    to {opacity: 100}
+}
