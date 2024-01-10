@@ -27801,7 +27801,8 @@ const TITLES = [
 ];
 class Title extends (0, _react.Component) {
     state = {
-        titleIndex: 0
+        titleIndex: 0,
+        fadeIn: true
     };
     componentDidMount() {
         console.log("Title component has mounted");
@@ -27821,6 +27822,7 @@ class Title extends (0, _react.Component) {
         console.log("this.titleInterval", this.titleInterval);
     };
     render() {
+        const { fadeIn, titleIndex } = this.state;
         const title = TITLES[this.state.titleIndex];
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
             children: [
@@ -27829,7 +27831,7 @@ class Title extends (0, _react.Component) {
             ]
         }, void 0, true, {
             fileName: "src/Title.js",
-            lineNumber: 39,
+            lineNumber: 41,
             columnNumber: 13
         }, this);
     }
