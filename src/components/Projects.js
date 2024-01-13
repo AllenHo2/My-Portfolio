@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import PROJECTS from '../data/projects';
 
 
-const Project = () => {
-        console.log('this.props', this.props);
+const Project = props => {
 
-        const {title, image, description, link} = this.props.project;
+        const {title, image, description, link} = props.project;
 
         return(
             <div style={{ display: 'inline-block', width: 300, margin:10}}>
@@ -17,24 +16,20 @@ const Project = () => {
         )
 }
 
-class Projects extends Component {
-    render() {
-        return (
-            <div> 
-                <h2>Highlighted Projects</h2>
-                <div>
-                    {
-                        PROJECTS.map(PROJECT => {
-                            return(
-                                <Project key = {PROJECT.id} project={PROJECT}/>
-                            );
-                        })
-                    }
-                </div>
-            </div>
-        )
-    }
-}
+const Projects = () => (
+    <div> 
+        <h2>Highlighted Projects</h2>
+        <div>
+            {
+                PROJECTS.map(PROJECT => {
+                    return(
+                        <Project key = {PROJECT.id} project={PROJECT}/>
+                    );
+                })
+            }
+        </div>
+    </div>
+)
 
 
 
