@@ -5,7 +5,7 @@ const Joke = ({ joke : {setup, punchline }}) => (
 )
 
 class Jokes extends Component {
-    state = { joke: {}, jokes:[] };
+    state = { joke: {}, jokes:[]};
 
     componentDidMount() {
         fetch('https://official-joke-api.appspot.com/random_joke')
@@ -29,7 +29,7 @@ class Jokes extends Component {
                 <h3>Want More Jokes?</h3>
                 <br />
                 <button onClick={this.fetchJokes}>Click Me</button>
-                {this.state.jokes.map(joke => (<Joke key={joke.id} joke={joke} />))}
+                    {this.state.jokes.map(joke => (<Joke key={joke.id} joke={joke} />))}
             </div>
         )
     }

@@ -2,7 +2,6 @@ import React, { Component }from "react";
 import Projects from './Projects';
 import SocialProfiles from "./SocialProfiles";
 import Title from "./Title";
-import Jokes from "./Jokes"
 import allenhead_2 from '../assets/allenhead_2.png';
 class App extends Component {
     state = { displayBio : false};
@@ -40,8 +39,6 @@ class App extends Component {
                 <Projects />
                 <br />
                 <SocialProfiles />
-                <br />
-                <Jokes />
             </div>
         );
     }
