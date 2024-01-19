@@ -2,7 +2,6 @@ import React, { Component }from "react";
 import Projects from './Projects';
 import SocialProfiles from "./SocialProfiles";
 import Title from "./Title";
-import Header from "./Header"
 import allenhead_2 from '../assets/allenhead_2.png';
 class App extends Component {
     state = { displayBio : false};
@@ -15,7 +14,6 @@ class App extends Component {
     render() {
         return(
             <div >
-                <Header />
                 <img src={allenhead_2} alt='profile' className="profile"/>
                 <h1>Allen Ho</h1>
                 <p>My name is Allen. I'm a second year Computer Science student.</p>  
@@ -45,6 +43,5 @@ class App extends Component {
         );
     }
 }
-
 
 export default App;
